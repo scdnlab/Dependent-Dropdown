@@ -51,7 +51,7 @@
 	      </script>
    	==============================================================================
    ### Api route
-      	Route::get('api/section-dropdown', array('as' => 'api.regio', 'uses' => 'Api\ApiController@sectionDropDownData'));
+      	Route::get('api/section-dropdown', array('as' => 'api.region', 'uses' => 'Api\ApiController@sectionDropDownData'));
 
    ### In ApiController 
 	   public function sectionDropDownData()
